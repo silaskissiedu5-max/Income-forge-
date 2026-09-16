@@ -246,3 +246,21 @@ footer h3 {
   align-items: center;
   justify-content: center;
   background: #25d366;
+.tutorial {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+}
+
+.tutorial h2 {
+  margin-top: 35px;
+}
+
+.tutorial p {
+  margin: 15px 0;
+  color: #bbb;
+}
+
+.tutorial .quote {
+  margin: 25px 0;
+}
