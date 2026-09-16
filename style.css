@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080808;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+}
+
+header h2 {
+  color: #00ff88;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(145deg, #101010, #001b10);
+}
+
+.tag {
+  color: #00ff88;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 45px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 15px auto;
+  color: #bbb;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 15px 28px;
+  background: #00ff88;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.card {
+  background: #151515;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 300px;
+}
+
+.card p,
+.offer p {
+  color: #bbb;
+}
+
+.offer {
+  background: #101010;
+}
+
+.note {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+details {
+  max-width: 650px;
+  margin: 15px auto;
+  padding: 20px;
+  background: #151515;
+  border-radius: 10px;
+  text-align: left;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #222;
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  nav {
+    display: none;
+  }
+}
